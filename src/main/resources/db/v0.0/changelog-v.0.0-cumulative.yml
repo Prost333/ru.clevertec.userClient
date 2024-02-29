@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: db/v0.0/ddl/createUsers.sql
+
+  - include:
+      file: db/v0.0/dml/insertUsers.sql
+
+

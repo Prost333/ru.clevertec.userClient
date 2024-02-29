@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.clevertec.userClient",
+    "module": "spring-boot-exeption-starter",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-exeption-starter-1.0-SNAPSHOT-plain.jar",
+          "url": "spring-boot-exeption-starter-1.0-SNAPSHOT-plain.jar",
+          "size": 6705,
+          "sha512": "dc805fe54bbb97eb7984130942bc0d9278d8790843576728a3b30cd91ebd071570488af2500dc5cfc337848adfcfcfad94d3c94bdb4d6610ec7cb9c85dd6f2f8",
+          "sha256": "7f79ee4d66e08d300e007f75ba33f6f1b7b6d99adf21b7f9287a71716f0f9c26",
+          "sha1": "33de43e2dd91a75b9a9c7d5f84ce649921c375b1",
+          "md5": "9176ceb8049061a9d31eeb20e0d9babd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa"
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-test"
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-exeption-starter-1.0-SNAPSHOT-plain.jar",
+          "url": "spring-boot-exeption-starter-1.0-SNAPSHOT-plain.jar",
+          "size": 6705,
+          "sha512": "dc805fe54bbb97eb7984130942bc0d9278d8790843576728a3b30cd91ebd071570488af2500dc5cfc337848adfcfcfad94d3c94bdb4d6610ec7cb9c85dd6f2f8",
+          "sha256": "7f79ee4d66e08d300e007f75ba33f6f1b7b6d99adf21b7f9287a71716f0f9c26",
+          "sha1": "33de43e2dd91a75b9a9c7d5f84ce649921c375b1",
+          "md5": "9176ceb8049061a9d31eeb20e0d9babd"
+        }
+      ]
+    }
+  ]
+}

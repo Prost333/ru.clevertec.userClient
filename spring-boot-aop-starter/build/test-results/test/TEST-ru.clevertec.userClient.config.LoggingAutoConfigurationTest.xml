@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.clevertec.userClient.config.LoggingAutoConfigurationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-02-29T13:45:35" hostname="LAPTOP-IKH2VJJP" time="1.126">
+  <properties/>
+  <testcase name="shouldReturnLoggUserAspectBeanIfEnabledTrue()" classname="ru.clevertec.userClient.config.LoggingAutoConfigurationTest" time="1.064"/>
+  <testcase name="shouldCheckNotCreateLoggAuthAspectBeanIfEnabledFalse()" classname="ru.clevertec.userClient.config.LoggingAutoConfigurationTest" time="0.014"/>
+  <testcase name="shouldReturnLoggAuthAspectBeanIfEnabledTrue()" classname="ru.clevertec.userClient.config.LoggingAutoConfigurationTest" time="0.03"/>
+  <testcase name="shouldCheckNotCreateLoggUserAspectBeanIfEnabledFalse()" classname="ru.clevertec.userClient.config.LoggingAutoConfigurationTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

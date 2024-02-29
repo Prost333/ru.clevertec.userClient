@@ -1,0 +1,4 @@
+rootProject.name = 'ru.clevertec.userClient'
+include 'spring-boot-exeption-starter'
+include 'spring-boot-aop-starter'
+
