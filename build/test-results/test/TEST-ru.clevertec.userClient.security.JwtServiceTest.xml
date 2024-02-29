@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.clevertec.userClient.security.JwtServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-29T18:06:23" hostname="LAPTOP-IKH2VJJP" time="0.237">
+  <properties/>
+  <testcase name="testIsTokenValid()" classname="ru.clevertec.userClient.security.JwtServiceTest" time="0.224"/>
+  <testcase name="testExtractUserName()" classname="ru.clevertec.userClient.security.JwtServiceTest" time="0.007"/>
+  <testcase name="testGenerateToken()" classname="ru.clevertec.userClient.security.JwtServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

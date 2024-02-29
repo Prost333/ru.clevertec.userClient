@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.clevertec.userClient.service.imp.AuthenticationServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-02-29T18:06:24" hostname="LAPTOP-IKH2VJJP" time="0.625">
+  <properties/>
+  <testcase name="testSignIn_InvalidCredentials()" classname="ru.clevertec.userClient.service.imp.AuthenticationServiceTest" time="0.571"/>
+  <testcase name="testSignIn()" classname="ru.clevertec.userClient.service.imp.AuthenticationServiceTest" time="0.023"/>
+  <testcase name="testSignUp()" classname="ru.clevertec.userClient.service.imp.AuthenticationServiceTest" time="0.011"/>
+  <testcase name="testSignIn_FailLogin()" classname="ru.clevertec.userClient.service.imp.AuthenticationServiceTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

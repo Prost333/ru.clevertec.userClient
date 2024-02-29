@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.clevertec.userClient.service.UserDetailServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-29T18:06:24" hostname="LAPTOP-IKH2VJJP" time="0.046">
+  <properties/>
+  <testcase name="testLoadUserByUsername_Success()" classname="ru.clevertec.userClient.service.UserDetailServiceTest" time="0.036"/>
+  <testcase name="testLoadUserByUsername_UserNotFound()" classname="ru.clevertec.userClient.service.UserDetailServiceTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
