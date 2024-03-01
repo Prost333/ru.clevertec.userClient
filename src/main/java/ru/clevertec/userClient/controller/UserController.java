@@ -66,30 +66,6 @@ public class UserController {
     }
 
     @Operation(
-            method = "POST",
-            summary = "Save a user",
-            description = "This method saves a user",
-            requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(
-                    content = @Content(
-                            mediaType = "application/json",
-                            schema = @Schema(implementation = UserReq.class)
-                    )
-            ),
-            responses = @ApiResponse(
-                    description = "Success",
-                    responseCode = "200",
-                    content = @Content(
-                            mediaType = "application/json",
-                            schema = @Schema(implementation = UserResp.class)
-                    )
-            )
-    )
-    @PostMapping
-    public ResponseEntity<UserResp> save(@RequestBody UserReq userReqReq) {
-        return ok(userService.save(userReqReq));
-    }
-
-    @Operation(
             method = "GET",
             summary = "Find a user by ID",
             description = "This method finds a user by their ID",
