@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-29T13:45:47" hostname="LAPTOP-IKH2VJJP" time="2.166">
+<testsuite name="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-01T18:02:34" hostname="LAPTOP-IKH2VJJP" time="1.861">
   <properties/>
-  <testcase name="handelValidatorException_ReturnsErrorResponseWithBadRequestStatusCode()" classname="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" time="2.136"/>
-  <testcase name="shouldReturnHandleException()" classname="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" time="0.024"/>
+  <testcase name="handelValidatorException_ReturnsErrorResponseWithBadRequestStatusCode()" classname="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" time="1.834"/>
+  <testcase name="shouldReturnHandleException()" classname="ru.clevertec.userClient.exeption.DefaultExceptionHandlerTest" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.278s</div>
+<div class="counter">2.137s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">testGetBody()</td>
-<td class="success">1.321s</td>
+<td class="success">1.239s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSignIn()</td>
-<td class="success">0.770s</td>
+<td class="success">0.677s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSignUp()</td>
-<td class="success">0.187s</td>
+<td class="success">0.221s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -98,46 +98,46 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-17:26:23.818 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ru.clevertec.userClient.controller.AuthControllerTest]: AuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:26:24.251 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ru.clevertec.userClient.Main for test class ru.clevertec.userClient.controller.AuthControllerTest
-17:26:25,293 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@72456279 - Adding [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
-17:26:25,293 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@53a9fcfd - URL [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
-17:26:25,297 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
-17:26:25,297 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word correlationId with class [org.springframework.boot.logging.logback.CorrelationIdConverter]
-17:26:25,297 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
-17:26:25,298 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
-17:26:25,301 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@72456279 - Adding [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
-17:26:25,301 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@53a9fcfd - URL [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
-17:26:25,370 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
-17:26:25,370 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
-17:26:25,372 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
-17:26:25,372 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
-17:26:25,373 |-WARN in ch.qos.logback.core.model.processor.AppenderModelHandler - Appender named [CONSOLE] not referenced. Skipping further processing.
-17:26:25,373 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ColoredConsole]
-17:26:25,373 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-17:26:25,382 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-17:26:25,422 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RollingFile]
-17:26:25,422 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-17:26:25,427 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - No TriggeringPolicy was set for the RollingFileAppender named RollingFile
-17:26:25,427 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - For more information, please visit http://logback.qos.ch/codes.html#rfa_no_tp
-17:26:25,428 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
-17:26:25,428 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@21f459fc - Propagating INFO level on Logger[ROOT] onto the JUL framework
-17:26:25,428 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ColoredConsole] to Logger[ROOT]
-17:26:25,428 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RollingFile] to Logger[ROOT]
-17:26:25,428 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@4d192aef - End of configuration.
-17:26:25,428 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@1416cf9f - Registering current configuration as safe fallback point
+21:01:53.481 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ru.clevertec.userClient.controller.AuthControllerTest]: AuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:01:53.842 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ru.clevertec.userClient.Main for test class ru.clevertec.userClient.controller.AuthControllerTest
+21:01:54,745 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@62573c86 - Adding [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+21:01:54,745 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@2418ba04 - URL [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+21:01:54,749 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+21:01:54,749 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word correlationId with class [org.springframework.boot.logging.logback.CorrelationIdConverter]
+21:01:54,749 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+21:01:54,749 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+21:01:54,751 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@62573c86 - Adding [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+21:01:54,751 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@2418ba04 - URL [jar:file:/C:/Users/dimab/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.2.1/faa2ce019bee68a8d17529d0a08ebc427f927e13/spring-boot-3.2.1.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+21:01:54,809 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+21:01:54,809 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+21:01:54,810 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+21:01:54,810 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+21:01:54,810 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+21:01:54,810 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+21:01:54,810 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+21:01:54,810 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+21:01:54,810 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+21:01:54,810 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+21:01:54,811 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+21:01:54,811 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+21:01:54,811 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+21:01:54,811 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+21:01:54,811 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+21:01:54,811 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+21:01:54,812 |-WARN in ch.qos.logback.core.model.processor.AppenderModelHandler - Appender named [CONSOLE] not referenced. Skipping further processing.
+21:01:54,812 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ColoredConsole]
+21:01:54,812 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+21:01:54,819 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:01:54,840 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RollingFile]
+21:01:54,840 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+21:01:54,843 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - No TriggeringPolicy was set for the RollingFileAppender named RollingFile
+21:01:54,843 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RollingFile] - For more information, please visit http://logback.qos.ch/codes.html#rfa_no_tp
+21:01:54,843 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+21:01:54,843 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@14229fa7 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+21:01:54,843 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ColoredConsole] to Logger[ROOT]
+21:01:54,843 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RollingFile] to Logger[ROOT]
+21:01:54,843 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@2ab0702e - End of configuration.
+21:01:54,844 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@7158daf2 - Registering current configuration as safe fallback point
 
 
   .   ____          _            __ _ _
@@ -148,47 +148,47 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.1)
 
-?[34mINFO ?[0;39m 17:26:25.639 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - Starting AuthControllerTest using Java 17.0.9 with PID 17928 (started by dimab in C:\Users\dimab\ru.clevertec.userClient)
-?[34mINFO ?[0;39m 17:26:25.642 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - The following 1 profile is active: &quot;test&quot;
-?[34mINFO ?[0;39m 17:26:27.023 [Test worker] ?[36mo.s.d.r.c.RepositoryConfigurationDelegate?[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-?[34mINFO ?[0;39m 17:26:27.112 [Test worker] ?[36mo.s.d.r.c.RepositoryConfigurationDelegate?[0;39m - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
-?[34mINFO ?[0;39m 17:26:28.309 [Test worker] ?[36mo.s.c.c.s.GenericScope?[0;39m - BeanFactory id=8ad7f0d8-d1c3-3d11-9916-3fa7a79dbaa5
-?[34mINFO ?[0;39m 17:26:29.304 [Test worker] ?[36mc.z.h.HikariDataSource?[0;39m - HikariPool-1 - Starting...
-?[34mINFO ?[0;39m 17:26:29.553 [Test worker] ?[36mc.z.h.p.HikariPool?[0;39m - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ddd84d2
-?[34mINFO ?[0;39m 17:26:29.556 [Test worker] ?[36mc.z.h.HikariDataSource?[0;39m - HikariPool-1 - Start completed.
-?[34mINFO ?[0;39m 17:26:29.931 [Test worker] ?[36ml.database?[0;39m - Set default schema name to public
-?[34mINFO ?[0;39m 17:26:30.316 [Test worker] ?[36ml.changelog?[0;39m - Reading from public.databasechangelog
-?[34mINFO ?[0;39m 17:26:30.383 [Test worker] ?[36mliquibase.ui?[0;39m - Database is up to date, no changesets to execute
-?[34mINFO ?[0;39m 17:26:30.386 [Test worker] ?[36ml.changelog?[0;39m - Reading from public.databasechangelog
-?[34mINFO ?[0;39m 17:26:30.437 [Test worker] ?[36mliquibase.util?[0;39m - UPDATE SUMMARY
-?[34mINFO ?[0;39m 17:26:30.438 [Test worker] ?[36mliquibase.util?[0;39m - Run:                          0
-?[34mINFO ?[0;39m 17:26:30.438 [Test worker] ?[36mliquibase.util?[0;39m - Previously run:               2
-?[34mINFO ?[0;39m 17:26:30.438 [Test worker] ?[36mliquibase.util?[0;39m - Filtered out:                 0
-?[34mINFO ?[0;39m 17:26:30.438 [Test worker] ?[36mliquibase.util?[0;39m - -------------------------------
-?[34mINFO ?[0;39m 17:26:30.439 [Test worker] ?[36mliquibase.util?[0;39m - Total change sets:            2
-?[34mINFO ?[0;39m 17:26:30.440 [Test worker] ?[36mliquibase.util?[0;39m - Update summary generated
-?[34mINFO ?[0;39m 17:26:30.481 [Test worker] ?[36ml.lockservice?[0;39m - Successfully released change log lock
-?[34mINFO ?[0;39m 17:26:30.483 [Test worker] ?[36ml.command?[0;39m - Command execution complete
-?[34mINFO ?[0;39m 17:26:30.704 [Test worker] ?[36mo.h.j.i.u.LogHelper?[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
-?[34mINFO ?[0;39m 17:26:30.867 [Test worker] ?[36mo.h.Version?[0;39m - HHH000412: Hibernate ORM core version 6.4.1.Final
-?[34mINFO ?[0;39m 17:26:30.965 [Test worker] ?[36mo.h.c.i.RegionFactoryInitiator?[0;39m - HHH000026: Second-level cache disabled
-?[34mINFO ?[0;39m 17:26:31.546 [Test worker] ?[36mo.s.o.j.p.SpringPersistenceUnitInfo?[0;39m - No LoadTimeWeaver setup: ignoring JPA class transformer
-?[34mINFO ?[0;39m 17:26:33.072 [Test worker] ?[36mo.h.e.t.j.p.i.JtaPlatformInitiator?[0;39m - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-?[34mINFO ?[0;39m 17:26:33.081 [Test worker] ?[36mo.s.o.j.LocalContainerEntityManagerFactoryBean?[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
-?[34mINFO ?[0;39m 17:26:34.105 [Test worker] ?[36mr.c.u.c.ExceptionHandlerAutoConfiguration?[0;39m - LoggingAutoConfiguration init
-?[34mINFO ?[0;39m 17:26:34.113 [Test worker] ?[36mr.c.u.c.LoggingAutoConfiguration?[0;39m - LoggingAutoConfiguration initialized
-?[31mWARN ?[0;39m 17:26:34.349 [Test worker] ?[36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration?[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-?[34mINFO ?[0;39m 17:26:35.224 [Test worker] ?[36mo.s.s.w.DefaultSecurityFilterChain?[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@190ec769, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27bd124a, org.springframework.security.web.context.SecurityContextHolderFilter@5effc15d, org.springframework.security.web.header.HeaderWriterFilter@6903bec9, org.springframework.web.filter.CorsFilter@7902a4d7, org.springframework.security.web.authentication.logout.LogoutFilter@620ba19c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e92f150, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ba38cce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28dae87e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@397a70d8, org.springframework.security.web.access.ExceptionTranslationFilter@77107573, org.springframework.security.web.access.intercept.AuthorizationFilter@1a389b39]
-?[34mINFO ?[0;39m 17:26:36.248 [Test worker] ?[36mo.s.b.t.m.w.SpringBootMockServletContext?[0;39m - Initializing Spring TestDispatcherServlet ''
-?[34mINFO ?[0;39m 17:26:36.249 [Test worker] ?[36mo.s.t.w.s.TestDispatcherServlet?[0;39m - Initializing Servlet ''
-?[34mINFO ?[0;39m 17:26:36.252 [Test worker] ?[36mo.s.t.w.s.TestDispatcherServlet?[0;39m - Completed initialization in 3 ms
-?[34mINFO ?[0;39m 17:26:36.598 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - Started AuthControllerTest in 12.05 seconds (process running for 14.552)
-?[34mINFO ?[0;39m 17:26:37.882 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method getBody started
-?[34mINFO ?[0;39m 17:26:37.886 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method getBody executed in 1 millisecond
-?[34mINFO ?[0;39m 17:26:38.199 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method signIn started
-?[39mDEBUG?[0;39m 17:26:38.627 [Test worker] ?[36mo.hibernate.SQL?[0;39m - select u1_0.id,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
-?[31mWARN ?[0;39m 17:26:38.659 [Test worker] ?[36mo.s.s.c.b.BCryptPasswordEncoder?[0;39m - Encoded password does not look like BCrypt
-?[1;31mERROR?[0;39m 17:26:38.661 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - fail login
+?[34mINFO ?[0;39m 21:01:54.999 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - Starting AuthControllerTest using Java 17.0.9 with PID 9984 (started by dimab in C:\Users\dimab\ru.clevertec.userClient)
+?[34mINFO ?[0;39m 21:01:55.001 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - The following 1 profile is active: &quot;test&quot;
+?[34mINFO ?[0;39m 21:01:56.286 [Test worker] ?[36mo.s.d.r.c.RepositoryConfigurationDelegate?[0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[34mINFO ?[0;39m 21:01:56.369 [Test worker] ?[36mo.s.d.r.c.RepositoryConfigurationDelegate?[0;39m - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+?[34mINFO ?[0;39m 21:01:57.374 [Test worker] ?[36mo.s.c.c.s.GenericScope?[0;39m - BeanFactory id=8ad7f0d8-d1c3-3d11-9916-3fa7a79dbaa5
+?[34mINFO ?[0;39m 21:01:58.189 [Test worker] ?[36mc.z.h.HikariDataSource?[0;39m - HikariPool-1 - Starting...
+?[34mINFO ?[0;39m 21:01:58.677 [Test worker] ?[36mc.z.h.p.HikariPool?[0;39m - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ec0229c
+?[34mINFO ?[0;39m 21:01:58.680 [Test worker] ?[36mc.z.h.HikariDataSource?[0;39m - HikariPool-1 - Start completed.
+?[34mINFO ?[0;39m 21:01:59.072 [Test worker] ?[36ml.database?[0;39m - Set default schema name to public
+?[34mINFO ?[0;39m 21:01:59.438 [Test worker] ?[36ml.changelog?[0;39m - Reading from public.databasechangelog
+?[34mINFO ?[0;39m 21:01:59.508 [Test worker] ?[36mliquibase.ui?[0;39m - Database is up to date, no changesets to execute
+?[34mINFO ?[0;39m 21:01:59.510 [Test worker] ?[36ml.changelog?[0;39m - Reading from public.databasechangelog
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - UPDATE SUMMARY
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - Run:                          0
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - Previously run:               2
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - Filtered out:                 0
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - -------------------------------
+?[34mINFO ?[0;39m 21:01:59.552 [Test worker] ?[36mliquibase.util?[0;39m - Total change sets:            2
+?[34mINFO ?[0;39m 21:01:59.553 [Test worker] ?[36mliquibase.util?[0;39m - Update summary generated
+?[34mINFO ?[0;39m 21:01:59.592 [Test worker] ?[36ml.lockservice?[0;39m - Successfully released change log lock
+?[34mINFO ?[0;39m 21:01:59.594 [Test worker] ?[36ml.command?[0;39m - Command execution complete
+?[34mINFO ?[0;39m 21:01:59.786 [Test worker] ?[36mo.h.j.i.u.LogHelper?[0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+?[34mINFO ?[0;39m 21:01:59.927 [Test worker] ?[36mo.h.Version?[0;39m - HHH000412: Hibernate ORM core version 6.4.1.Final
+?[34mINFO ?[0;39m 21:02:00.002 [Test worker] ?[36mo.h.c.i.RegionFactoryInitiator?[0;39m - HHH000026: Second-level cache disabled
+?[34mINFO ?[0;39m 21:02:00.519 [Test worker] ?[36mo.s.o.j.p.SpringPersistenceUnitInfo?[0;39m - No LoadTimeWeaver setup: ignoring JPA class transformer
+?[34mINFO ?[0;39m 21:02:01.937 [Test worker] ?[36mo.h.e.t.j.p.i.JtaPlatformInitiator?[0;39m - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[34mINFO ?[0;39m 21:02:01.942 [Test worker] ?[36mo.s.o.j.LocalContainerEntityManagerFactoryBean?[0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[34mINFO ?[0;39m 21:02:02.839 [Test worker] ?[36mr.c.u.c.ExceptionHandlerAutoConfiguration?[0;39m - LoggingAutoConfiguration init
+?[34mINFO ?[0;39m 21:02:02.846 [Test worker] ?[36mr.c.u.c.LoggingAutoConfiguration?[0;39m - LoggingAutoConfiguration initialized
+?[31mWARN ?[0;39m 21:02:03.042 [Test worker] ?[36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration?[0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[34mINFO ?[0;39m 21:02:03.763 [Test worker] ?[36mo.s.s.w.DefaultSecurityFilterChain?[0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c1f1c03, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69e3e1d9, org.springframework.security.web.context.SecurityContextHolderFilter@1a8042a5, org.springframework.security.web.header.HeaderWriterFilter@32787dee, org.springframework.web.filter.CorsFilter@1ccfa4b8, org.springframework.security.web.authentication.logout.LogoutFilter@1a389b39, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2b097d19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69ee825c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c44bce3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f93816d, org.springframework.security.web.access.ExceptionTranslationFilter@7c3b8b26, org.springframework.security.web.access.intercept.AuthorizationFilter@4ed761dc]
+?[34mINFO ?[0;39m 21:02:04.650 [Test worker] ?[36mo.s.b.t.m.w.SpringBootMockServletContext?[0;39m - Initializing Spring TestDispatcherServlet ''
+?[34mINFO ?[0;39m 21:02:04.651 [Test worker] ?[36mo.s.t.w.s.TestDispatcherServlet?[0;39m - Initializing Servlet ''
+?[34mINFO ?[0;39m 21:02:04.653 [Test worker] ?[36mo.s.t.w.s.TestDispatcherServlet?[0;39m - Completed initialization in 2 ms
+?[34mINFO ?[0;39m 21:02:05.011 [Test worker] ?[36mr.c.u.c.AuthControllerTest?[0;39m - Started AuthControllerTest in 10.928 seconds (process running for 13.397)
+?[34mINFO ?[0;39m 21:02:06.212 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method getBody started
+?[34mINFO ?[0;39m 21:02:06.215 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method getBody executed in 0 millisecond
+?[34mINFO ?[0;39m 21:02:06.469 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method signIn started
+?[39mDEBUG?[0;39m 21:02:06.836 [Test worker] ?[36mo.hibernate.SQL?[0;39m - select u1_0.id,u1_0.password,u1_0.role,u1_0.username from users u1_0 where u1_0.username=?
+?[31mWARN ?[0;39m 21:02:06.884 [Test worker] ?[36mo.s.s.c.b.BCryptPasswordEncoder?[0;39m - Encoded password does not look like BCrypt
+?[1;31mERROR?[0;39m 21:02:06.885 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - fail login
 ru.clevertec.userClient.exeption.EntityNotFoundException: fail login
 	at ru.clevertec.userClient.service.imp.AuthenticationService.signIn(AuthenticationService.java:79)
 	at ru.clevertec.userClient.controller.AuthController.signIn(AuthController.java:57)
@@ -385,7 +385,7 @@ ru.clevertec.userClient.exeption.EntityNotFoundException: fail login
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-?[1;31mERROR?[0;39m 17:26:38.679 [Test worker] ?[36mr.c.u.e.DefaultExceptionHandler?[0;39m - Exception
+?[1;31mERROR?[0;39m 21:02:06.906 [Test worker] ?[36mr.c.u.e.DefaultExceptionHandler?[0;39m - Exception
 ru.clevertec.userClient.exeption.EntityNotFoundException: fail login
 	at ru.clevertec.userClient.service.imp.AuthenticationService.signIn(AuthenticationService.java:79)
 	at ru.clevertec.userClient.controller.AuthController.signIn(AuthController.java:57)
@@ -582,12 +582,12 @@ ru.clevertec.userClient.exeption.EntityNotFoundException: fail login
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-?[34mINFO ?[0;39m 17:26:38.740 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method signUp started
-?[39mDEBUG?[0;39m 17:26:38.859 [Test worker] ?[36mo.hibernate.SQL?[0;39m - insert into users (password,role,username) values (?,?,?)
-?[31mWARN ?[0;39m 17:26:38.883 [Test worker] ?[36mo.h.e.j.s.SqlExceptionHelper?[0;39m - SQL Error: 0, SQLState: 23505
-?[1;31mERROR?[0;39m 17:26:38.883 [Test worker] ?[36mo.h.e.j.s.SqlExceptionHelper?[0;39m - ??????: ????????????? ???????? ????? ???????? ??????????? ???????????? &quot;users_username_key&quot;
+?[34mINFO ?[0;39m 21:02:06.971 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - Method signUp started
+?[39mDEBUG?[0;39m 21:02:07.122 [Test worker] ?[36mo.hibernate.SQL?[0;39m - insert into users (password,role,username) values (?,?,?)
+?[31mWARN ?[0;39m 21:02:07.150 [Test worker] ?[36mo.h.e.j.s.SqlExceptionHelper?[0;39m - SQL Error: 0, SQLState: 23505
+?[1;31mERROR?[0;39m 21:02:07.150 [Test worker] ?[36mo.h.e.j.s.SqlExceptionHelper?[0;39m - ??????: ????????????? ???????? ????? ???????? ??????????? ???????????? &quot;users_username_key&quot;
   ???????????: ???? &quot;(username)=(test)&quot; ??? ??????????.
-?[1;31mERROR?[0;39m 17:26:38.899 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - there was a registration error
+?[1;31mERROR?[0;39m 21:02:07.166 [Test worker] ?[36mr.c.u.a.LoggAuthAspect?[0;39m - there was a registration error
 ru.clevertec.userClient.exeption.EntityNotFoundException: there was a registration error
 	at ru.clevertec.userClient.service.imp.UserServiceImp.save(UserServiceImp.java:55)
 	at ru.clevertec.userClient.service.imp.AuthenticationService.signUp(AuthenticationService.java:44)
@@ -785,7 +785,7 @@ ru.clevertec.userClient.exeption.EntityNotFoundException: there was a registrati
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-?[1;31mERROR?[0;39m 17:26:38.908 [Test worker] ?[36mr.c.u.e.DefaultExceptionHandler?[0;39m - Exception
+?[1;31mERROR?[0;39m 21:02:07.174 [Test worker] ?[36mr.c.u.e.DefaultExceptionHandler?[0;39m - Exception
 ru.clevertec.userClient.exeption.EntityNotFoundException: there was a registration error
 	at ru.clevertec.userClient.service.imp.UserServiceImp.save(UserServiceImp.java:55)
 	at ru.clevertec.userClient.service.imp.AuthenticationService.signUp(AuthenticationService.java:44)
@@ -994,7 +994,7 @@ ru.clevertec.userClient.exeption.EntityNotFoundException: there was a registrati
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 29 февр. 2024 г., 17:26:39</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 1 мар. 2024 г., 21:02:22</p>
 </div>
 </div>
 </body>

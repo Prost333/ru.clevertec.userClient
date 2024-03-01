@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.clevertec.userClient.aop.LoggAuthAspectTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-29T13:45:32" hostname="LAPTOP-IKH2VJJP" time="2.035">
+<testsuite name="ru.clevertec.userClient.aop.LoggAuthAspectTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-01T18:02:26" hostname="LAPTOP-IKH2VJJP" time="1.798">
   <properties/>
-  <testcase name="testLogMethodExecutionTime()" classname="ru.clevertec.userClient.aop.LoggAuthAspectTest" time="2.029"/>
+  <testcase name="testLogMethodExecutionTime()" classname="ru.clevertec.userClient.aop.LoggAuthAspectTest" time="1.793"/>
   <testcase name="testAfterUser()" classname="ru.clevertec.userClient.aop.LoggAuthAspectTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.

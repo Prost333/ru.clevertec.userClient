@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-29T13:45:46" hostname="LAPTOP-IKH2VJJP" time="0.859">
+<testsuite name="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-01T18:02:33" hostname="LAPTOP-IKH2VJJP" time="0.679">
   <properties/>
-  <testcase name="shouldReturnDefaultExceptionHandlerBeanIfEnabledTrue()" classname="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" time="0.847"/>
-  <testcase name="shouldCheckNotCreateDefaultExceptionHandlerBeanIfEnabledFalse()" classname="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" time="0.01"/>
+  <testcase name="shouldReturnDefaultExceptionHandlerBeanIfEnabledTrue()" classname="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" time="0.669"/>
+  <testcase name="shouldCheckNotCreateDefaultExceptionHandlerBeanIfEnabledFalse()" classname="ru.clevertec.userClient.config.ExceptionHandlerAutoConfigurationTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
