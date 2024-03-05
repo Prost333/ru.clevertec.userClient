@@ -5,9 +5,11 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: sa
-      POSTGRES_DB: news
+      POSTGRES_DB: newsClient
     ports:
-      - 5433:5432
+      - 5432:5432
+    networks:
+      - mynetwork
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
@@ -15,17 +17,22 @@ services:
       retries: 3
   app:
     build:
-      context: "C:\\Users\\dimab\\ru.clevertec.ManagementNews"
+      context: "C:\\Users\\dimab\\ru.clevertec.userClient"
       dockerfile: Dockerfile
     ports:
-      - 8080:8080
+      - 8081:8081
     depends_on:
       db:
         condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5433/news
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/newsClient
       POSTGRES_HOST: db
-      POSTGRES_PORT: 5433
+      POSTGRES_PORT: 5432
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: sa
-      POSTGRES_DB: news
+      POSTGRES_DB: newsClient
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+    driver: bridge
