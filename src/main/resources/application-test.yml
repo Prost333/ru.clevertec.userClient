@@ -30,4 +30,4 @@ exception:
     enabled: true
 jwt:
   secret: c92cef2481ba7a58dc63485105e6c0bc289670ba31108ff8cdf6402ae92dc84e
-  expiration-time: 86400
+  expiration-time: 3600000

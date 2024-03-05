@@ -7,7 +7,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import ru.clevertec.userClient.controller.NewsClient;
 import ru.clevertec.userClient.dto.UserReq;
 import ru.clevertec.userClient.dto.UserResp;
 import ru.clevertec.userClient.entity.User;
