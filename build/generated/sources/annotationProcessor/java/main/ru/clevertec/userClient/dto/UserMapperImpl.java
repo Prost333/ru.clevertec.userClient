@@ -6,7 +6,7 @@ import ru.clevertec.userClient.entity.User;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-03-01T21:01:43+0300",
+    date = "2024-03-07T13:06:52+0300",
     comments = "version: 1.5.5.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-7.5.1.jar, environment: Java 17.0.9 (Amazon.com Inc.)"
 )
 @Component

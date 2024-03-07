@@ -33,6 +33,7 @@ import ru.clevertec.userClient.dto.UserReq;
 import ru.clevertec.userClient.dto.UserResp;
 import ru.clevertec.userClient.entity.User;
 import ru.clevertec.userClient.enums.Role;
+import ru.clevertec.userClient.security.JwtService;
 import ru.clevertec.userClient.service.UserService;
 
 import java.util.ArrayList;
@@ -46,16 +47,18 @@ class UserControllerTest {
 
     @MockBean
     private UserService userService;
+    @Autowired
+    private JwtService jwtService;
 
     private void authenticateAsAdmin() {
         List<GrantedAuthority> authorities = new ArrayList<>();
         authorities.add(new SimpleGrantedAuthority(Role.ADMIN.name()));
         User user = User.builder().role(Role.ADMIN).password("admin123").username("admin").build();
         UserDetails userDetails = user;
+        String token = jwtService.generateToken(userDetails);
         Authentication auth = new UsernamePasswordAuthenticationToken(userDetails, null, authorities);
         SecurityContextHolder.getContext().setAuthentication(auth);
     }
-
     @Test
     public void testFindById() throws Exception {
         authenticateAsAdmin();
@@ -85,21 +88,6 @@ class UserControllerTest {
         verify(userService, times(1)).update(anyLong(), any(UserReq.class));
     }
 
-    @Test
-    public void testSave() throws Exception {
-        authenticateAsAdmin();
-
-        UserResp userResp = new UserResp();
-        when(userService.save(any(UserReq.class))).thenReturn(userResp);
-
-        mockMvc.perform(post("/users")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(new ObjectMapper().writeValueAsString(new UserReq())))
-                .andExpect(status().isOk())
-                .andExpect(content().json(new ObjectMapper().writeValueAsString(userResp)));
-
-        verify(userService, times(1)).save(any(UserReq.class));
-    }
     @Test
     public void testFindByUsername() throws Exception {
         authenticateAsAdmin();

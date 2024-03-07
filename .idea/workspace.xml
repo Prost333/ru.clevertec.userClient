@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf07a43-d94a-458e-8f64-b4ccd6d45ea6" name="Changes" comment="ty">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/clevertec/userClient/security/JwtServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/userClient/security/JwtServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/ru/clevertec/userClient/dto/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/ru/clevertec/userClient/dto/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/clevertec/userClient/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/userClient/controller/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +134,8 @@
       <recent name="ru.clevertec.userClient.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
-    <configuration name="UserControllerTest.testFindById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserControllerTest">
+    <configuration name="UserControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.clevertec.userClient.controller.UserControllerTest.testFindById&quot;" />
+            <option value="&quot;ru.clevertec.userClient.controller.UserControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserControllerTest" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.resources: Compose Deployment" />
         <item itemvalue="Gradle.ru.clevertec.userClient [build]" />
         <item itemvalue="Gradle.ru.clevertec.userClient [clean]" />
-        <item itemvalue="Gradle.UserControllerTest.testFindById" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709645718630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ty">
+      <created>1709805785376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709805785376</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
